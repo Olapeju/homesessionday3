@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+.clear {
+	margin: 40px;
+}
+body {
+	margin: 0 auto;
+	font: 400 1em Roboto,Arial,Helvetica,Arial,sans;
+	position: relative;
+}
+a {
+	text-decoration: none;
+}
+
+div.header, div.menu{
+	background-color: rgb(0,150,136);
+	color: rgb(255,255,255);
+	width:100%;
+	font-family:raleway;
+	font-size: 20px;
+}
+div.header {
+	padding: 16px;
+	min-height: 30px;
+}
+.head {
+	width: 75%;
+	margin: 0 auto;
+}
+div.menu {
+	padding: 0px 20px 0px 20px;
+	min-height: 64px;
+}
+div.header a {
+	color: rgb(255,255,255);
+	float: right;
+	transition: box-shadow .4s 	cubic-bezier(.25,.8,.25,1),background-color .4s cubic-bezier(.25,.8,.25,1);
+}
+.navbar {
+	background-color: rgb(255,255,255);
+	width: 75%;
+	margin: 0 auto;
+}
+li.logo {
+	padding: 10px;
+}
+ul {
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow: hidden;
+}
+ul.navright {
+	float: right;
+	margin: 0 auto;
+	padding: 20px;
+}
+li {
+    display: inline;
+}
+
+li a {
+    padding: 8px;
+	color: #009090;
+	padding: 2px 15px;
+    margin: 0;
+}
+
+div.body {
+	width: 50%;
+	margin: 0 auto;
+	padding: 0px;
+}
+.body h2 {
+	text-align: left;
+	font-weight: 100;
+	    margin: 5px 0;
+		font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+}
+.loginform form {
+	display: block;
+    margin-top: 0em;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid #CCC;
+	outline: 0;
+	width: 100%;
+	display: block;
+    margin-top: 0;
+    background: 0 0;
+    padding: 2px 2px 1px;
+    line-height: 26px;
+    height: 30px;
+    border-radius: 0;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+	font: 13.3333px Arial;
+}
+.form-group {
+	padding: 10px;
+}
+.forgotpwd {
+    margin: 10px;
+}
+.forgotpwd a{
+	text-decoration: none;
+    color: #ff4081;
+}
+.button {
+	float: right;
+}
+.btn {
+	background-color: rgba(0,0,0,0.12);
+	color: rgba(0,0,0,0.26) !important;
+    cursor: default;
+	border-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+    outline: 0;
+    border: 0;
+    display: inline-block;
+    padding: 0 6px;
+    margin: 6px 8px;
+    line-height: 36px;
+    min-height: 36px;
+    white-space: nowrap;
+    min-width: 88px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: hidden;
+	letter-spacing: .010em;
+}
